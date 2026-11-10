@@ -11,4 +11,7 @@ internal static class Program
     {
         ApplicationConfiguration.Initialize();
 
-       
+        // Ejecutar el formulario de inicio de sesión:
+        Application.Run(new FrmLogin());
+    }
+}
